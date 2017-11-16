@@ -1,7 +1,7 @@
 import { eventChannel, END } from 'redux-saga';
 import { map, forEach } from 'lodash';
 
-import { DELAYS_IN_SECONDS } from '../redux/constants';
+import { DELAYS_IN_SECONDS } from '../constants';
 
 import { AttemptsExceededError } from '../errors';
 

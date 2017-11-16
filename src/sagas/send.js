@@ -11,7 +11,7 @@ import {
     SEND,
     commit,
     rollback
-} from '../redux/actions';
+} from '../actions';
 
 import {
     getEffectEventChannel
